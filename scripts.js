@@ -18,9 +18,11 @@ while(example1.length < 10) {
     example1 = " " + example1; // add a space before it.
     console.log(example1); // so you can see it happening.
 }
+console.log(example1); // <-- this is the answer here.
 
 
 while(example2.length < 10) {
     example2 = " " + example2; // add a space before it.
     console.log(example2); // so you can see it happening.
 }
+console.log(example2); // <-- this is the answer here.
