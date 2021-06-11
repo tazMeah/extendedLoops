@@ -20,7 +20,7 @@ Given any string, use a loop to add padding (extra spaces) to the front to make 
         example1 = " " + example1; // add a space before it.
     }
     console.log("WHILE loop:" + example1); // <-- this is the answer here.
-
+    console.log("%c")
 
     while (example2.length < 10) {
         example2 = " " + example2; // add a space before it.
@@ -42,10 +42,10 @@ Given any string, use a loop to add padding (extra spaces) to the front to make 
     for (let i = 0; i < differenceInLength1; i++) {
         example1 = " " + example1;
     }
-    console.log("FOR:" + example1);
+    console.log("FOR loop:" + example1);
 
     for (let i = 0; i < differenceInLength2; i++) {
         example2 = " " + example2;
     }
-    console.log("FOR:" + example2);
+    console.log("FOR loop:" + example2);
 }
